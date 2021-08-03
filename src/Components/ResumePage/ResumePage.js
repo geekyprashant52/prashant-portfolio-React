@@ -14,10 +14,18 @@ export default function ResumePage() {
 
       <div className={classes.yellow_line_div}></div>
       <div className={classes.iconWrapper}>
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-github"></i>
-        <i class="fas fa-envelope"></i>
-        <i class="fab fa-hackerrank"></i>
+        <a href="" className={classes.anchorTags}>
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" className={classes.anchorTags}>
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="" className={classes.anchorTags}>
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="" className={classes.anchorTags}>
+          <i class="fab fa-hackerrank"></i>
+        </a>
       </div>
       <div className={classes.qualificationWrapper}>
         <div className={classes.grey_line_div}></div>

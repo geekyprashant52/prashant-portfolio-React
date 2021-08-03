@@ -91,3 +91,43 @@
   font-size: 14px;
   margin-left: 5px;
 }
+
+@media (min-width: 480px) {
+  .projectDiv {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+  .projectDivWrapper {
+    justify-content: space-around;
+  }
+  .projectLinksWrapper {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 770px) {
+  .projectDiv {
+    width: 31%;
+    margin-bottom: 30px;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  .projectDiv:hover {
+    transform: translateY(-5px);
+  }
+  .projectDivWrapper {
+    justify-content: space-evenly;
+  }
+  .projectLinksWrapper {
+    margin-top: 20px;
+  }
+  .projectLinksWrapper a {
+    transition: all 0.1s;
+  }
+  .projectLinksWrapper a:hover {
+    transform: scale(1.05, 1.05);
+  }
+  .projectLinksWrapper a:nth-of-type(2) {
+    margin-top: 15px;
+  }
+}

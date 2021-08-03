@@ -5,6 +5,7 @@ import HomePage from "./Components/Homepage/HomePage";
 import SecondPage from "./Components/SecondPage/SecondPage";
 import LastPage from "./Components/LastPage/LastPage";
 import ResumePage from "./Components/ResumePage/ResumePage";
+import ProjectPage from "./Components/ProjectPage/ProjectPage";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/resume">
             <ResumePage />
+          </Route>
+          <Route path="/projects">
+            <ProjectPage />
           </Route>
         </Switch>
       </Router>

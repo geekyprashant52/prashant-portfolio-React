@@ -28,3 +28,21 @@
   font-weight: 600;
   letter-spacing: 0.5px;
 }
+
+@media (min-width: 480px) {
+  .hobbiesWrapper {
+    padding: 0 2%;
+  }
+  .hobbiesWrapper li {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hobbiesWrapper {
+    padding: 0 2%;
+  }
+  .hobbiesWrapper li {
+    margin-bottom: 10px;
+  }
+}

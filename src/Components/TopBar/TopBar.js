@@ -61,10 +61,10 @@ export default function TopBar() {
             <i class="fas fa-project-diagram"></i>
             <span>Projects</span>
           </Link>
-          <Link to="/contact" className={classes.routerLinks}>
+          {/* <Link to="/contact" className={classes.routerLinks}>
             <i class="fas fa-envelope"></i>
             <span>Contact</span>
-          </Link>
+          </Link> */}
         </div>
       </div>
 
@@ -85,14 +85,14 @@ export default function TopBar() {
           <i class="fas fa-project-diagram"></i>
           <span>Projects</span>
         </Link>
-        <Link
+        {/* <Link
           to="/contact"
           onClick={changeShow}
           className={classes.routerLinks}
         >
           <i class="fas fa-envelope"></i>
           <span>Contact</span>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

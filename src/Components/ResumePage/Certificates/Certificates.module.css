@@ -90,3 +90,19 @@
 .viewCertificateWrapper a {
   color: var(--yellow_color);
 }
+
+@media (min-width: 480px) {
+}
+
+@media (min-width: 768px) {
+  .certificateDiv {
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  .viewCertificateWrapper a:hover {
+    transform: scale(1.1, 1.1);
+  }
+  .certificateDiv:hover {
+    transform: translateY(-5px);
+  }
+}
