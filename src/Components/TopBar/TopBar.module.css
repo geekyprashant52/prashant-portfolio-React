@@ -4,7 +4,7 @@
   justify-content: flex-end;
   align-items: center;
   color: white;
-  padding: 5% 5%;
+  padding: 3% 5%;
   position: fixed;
   top: 0;
   left: 0;
@@ -33,9 +33,9 @@
 
 .navBarWrapper {
   width: 50%;
-  height: 90vh;
+  height: 92vh;
   position: fixed;
-  top: 10vh;
+  top: 8vh;
   right: 0;
   background-color: var(--secondary_color);
   transform: translateX(100%);
@@ -50,9 +50,9 @@
 
 .navBarWrapperShow {
   width: 50%;
-  height: 90vh;
+  height: 92vh;
   position: fixed;
-  top: 10vh;
+  top: 8vh;
   right: 0;
   background-color: var(--secondary_color);
   transform: translateX(0%);
