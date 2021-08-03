@@ -12,9 +12,15 @@ export default function HomePage() {
 
         <div className={classes.yellow_line_div}></div>
         <div className={classes.iconWrapper}>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-github"></i>
-          <i class="fas fa-envelope"></i>
+          <a href="" className={classes.anchorTags}>
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" className={classes.anchorTags}>
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="" className={classes.anchorTags}>
+            <i class="fas fa-envelope"></i>
+          </a>
         </div>
       </div>
       <div className={classes.right_div_wrapper}>

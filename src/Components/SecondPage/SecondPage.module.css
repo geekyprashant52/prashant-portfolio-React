@@ -105,3 +105,15 @@
 .projectTextWrapper > div > h3 {
   font-size: 14px;
 }
+
+@media (min-width: 480px) {
+  .secondPageWrapper {
+    padding: 5% 5%;
+  }
+}
+
+@media (min-width: 768px) {
+  .secondPageWrapper {
+    padding: 5% 5%;
+  }
+}

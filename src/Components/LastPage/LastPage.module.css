@@ -90,3 +90,15 @@
   border-top-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+
+@media (min-width: 480px) {
+  .lastPageWrapper {
+    padding: 5% 5%;
+  }
+}
+
+@media (min-width: 768px) {
+  .lastPageWrapper {
+    padding: 5% 5%;
+  }
+}
