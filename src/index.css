@@ -7,6 +7,7 @@
   --primary_color: #333646;
   --secondary_color: #252734;
   --yellow_color: #ffc25c;
+  --light_yellow_color: #ffc35ca1;
   --dark_yellow_color: #ffaf29;
   --grey_color_text: #999aa2;
   font-family: "Raleway", sans-serif;
@@ -27,4 +28,17 @@ code {
 .router-links-style {
   text-decoration: none;
   color: white;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--primary_color);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: var(--light_yellow_color);
 }

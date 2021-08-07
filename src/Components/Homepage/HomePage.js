@@ -12,13 +12,25 @@ export default function HomePage() {
 
         <div className={classes.yellow_line_div}></div>
         <div className={classes.iconWrapper}>
-          <a href="" className={classes.anchorTags}>
+          <a
+            href="https://www.linkedin.com/in/prashantrohankar2000/"
+            target="_blank"
+            className={classes.anchorTags}
+          >
             <i class="fab fa-linkedin"></i>
           </a>
-          <a href="" className={classes.anchorTags}>
+          <a
+            href="https://github.com/geekyprashant52"
+            target="_blank"
+            className={classes.anchorTags}
+          >
             <i class="fab fa-github"></i>
           </a>
-          <a href="" className={classes.anchorTags}>
+          <a
+            href="mailto:prashant.rohankarnaresh@gmail.com"
+            target="_blank"
+            className={classes.anchorTags}
+          >
             <i class="fas fa-envelope"></i>
           </a>
         </div>

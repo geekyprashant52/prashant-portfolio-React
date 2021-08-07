@@ -95,10 +95,16 @@
   .lastPageWrapper {
     padding: 5% 5%;
   }
+  .formContent input {
+    width: 45%;
+  }
 }
 
 @media (min-width: 768px) {
   .lastPageWrapper {
     padding: 5% 5%;
+  }
+  .formContent input {
+    width: 45%;
   }
 }
