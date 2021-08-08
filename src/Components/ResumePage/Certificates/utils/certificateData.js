@@ -35,14 +35,14 @@ const certificateData = [
     preview:
       "https://drive.google.com/file/d/1EFesH4LXciO779RIvxy-I2KehaDpnyEx/view?usp=sharing",
   },
-  {
-    imageUrl:
-      "https://www.ebi.ac.uk/about/technology/wp-content/uploads/2020/09/coursera-logo-1.png",
-    name: "Design Patterns",
-    score: "94/100",
-    institute: "University of Alberta",
-    preview: "https://coursera.org/share/d08bad46b82108bb46f3cf53c10bb933",
-  },
+  // {
+  //   imageUrl:
+  //     "https://www.ebi.ac.uk/about/technology/wp-content/uploads/2020/09/coursera-logo-1.png",
+  //   name: "Design Patterns",
+  //   score: "94/100",
+  //   institute: "University of Alberta",
+  //   preview: "https://coursera.org/share/d08bad46b82108bb46f3cf53c10bb933",
+  // },
 ];
 
 export { certificateData };
